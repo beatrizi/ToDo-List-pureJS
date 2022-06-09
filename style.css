@@ -1,0 +1,17 @@
+#topImage {
+  width: 150px;
+  height: 150px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+ #titulo{
+    text-align: center;
+ }
+#userInput{
+    text-align: center;
+}
+ .list-Container{
+    text-align: center;
+
+ }

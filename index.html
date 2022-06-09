@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToDo</title>
+    <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+    <img id="topImage" src="https://camo.githubusercontent.com/6638e3ab140514b4fc3059858906e35195e5dbbe2ed8a6c425bc0d3d08ec5982/68747470733a2f2f6c68332e676f6f676c6575736572636f6e74656e742e636f6d2f526e416e30763169727571374f693536745745424a46774d4378795264414a6846594a344a686a524762506a7474684161316c46356548435563385746364b454332796d6c44576b61543567694c346b362d2d307950533541765061674a304a487a3174735651434732634e6e503970307878524f42495273447865564d7136516f4145654c4231" alt="woman with a map" >
+    <script src="./main.js"></script>
+    <header id="titulo">
+        <h1>To do List</h1>
+        <p>What to do? Where to go?</p>
+    </header>
+    <form action="#" id="userInput">
+        <input type="text" placeholder="Escribe cada tarea aquí " autofocus >
+        <input type="submit" value="➕" id="addbutton">
+    </form><br>
+    <main id="list" class="list-Container">
+        <section class="task-container" id="1"> <!--empieza con id=1 pero se ira generando automaticamente despues porque cambiara en funcion del numero de tareas pendiente que se tenga-->
+            <label>
+                <input type="checkbox">
+                Tarea1
+            </label>
+            <span class="closeButton">🗑️</span>
+        </section><br>
+        <section id="stadistic">
+            Tareas Pendientes: 1<br>
+            Tareas Completadas: 20
+        </section>
+    </main>
+
+</body>
+</html>
